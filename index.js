@@ -115,6 +115,5 @@ function selectSong(items) {
         return process.exit(1);
       }
       startPlaying(episodeToPlay);
-      ora(`Now playing ${chalk.green(episode)}`).start();
     });
 }
